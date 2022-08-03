@@ -16,7 +16,7 @@ Si quieres ver la demo de este proyecto desplegado, puedes visitar [Demo del pro
 ### JS
 - IntersectionObserver
 
-## Librerias
+## Otras Herramientas
 - Font Awesome
 - Google Fonts
   
