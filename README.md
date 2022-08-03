@@ -21,9 +21,9 @@ Si quieres ver la demo de este proyecto desplegado, puedes visitar [Demo del pro
 - Google Fonts
   
 ## Desktop
-<img width="400px"  src="https://raw.githubusercontent.com/uxcristopher/imagenes/main/Readmes/Portafolio%20Mateo/Desktop.png" />
+<img width="400px"  src="https://raw.githubusercontent.com/azael1412/portafolio-mateo/main/img/desktop.png" />
 
 
 ## Mobile
 
-<img width="400px" src="https://raw.githubusercontent.com/uxcristopher/imagenes/main/Readmes/Portafolio%20Mateo/Mobile.png" />
+<img width="400px" src="https://raw.githubusercontent.com/azael1412/portafolio-mateo/main/img/mobile.png" />
