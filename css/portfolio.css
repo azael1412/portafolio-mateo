@@ -57,46 +57,46 @@
 .landing  .portfolio-img{
   background-image:
   linear-gradient(to bottom, transparent 0%, #04001e 100%),
-  url('/img/pruebas.png');
+  url('../img/pruebas.png');
 }
 .tiendita .portfolio-img {
   background-image:
   linear-gradient(to bottom, transparent 0%, #6ed6d7 100%),
-  url('/img/tiendita.png');
+  url('../img/tiendita.png');
 }
 
 .slacker .portfolio-img {
   background-image:
   linear-gradient(to bottom, transparent 0%, #302eb1 100%),
-  url('/img/slacker.png');
+  url('../img/slacker.png');
 }
 
 .principe .portfolio-img {
   background-image:
   linear-gradient(to bottom, transparent 0%, #ec615d 100%),
-  url('/img/principe.png');
+  url('../img/principe.png');
 }
 
 @media (min-width: 768px) { 
     .landing .portfolio-img {
       background-image:
       linear-gradient(to right, transparent 0%, #04001e 100%),
-      url('/img/pruebas.png');
+      url('../img/pruebas.png');
     }
     .tiendita .portfolio-img {
       background-image:
       linear-gradient(to right, transparent 0%, #6ed6d7 100%),
-      url('/img/tiendita.png');
+      url('../img/tiendita.png');
     }
     .slacker .portfolio-img {
       background-image:
       linear-gradient(to right, transparent 0%, #302eb1 100%),
-      url('/img/slacker.png');
+      url('../img/slacker.png');
     }
     .principe .portfolio-img {
       background-image:
       linear-gradient(to right, transparent 0%, #ec615d 100%),
-      url('/img/principe.png');
+      url('../img/principe.png');
     }
 }
 /* portfolio-content  */
