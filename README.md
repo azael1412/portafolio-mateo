@@ -2,11 +2,11 @@
 ### Recreando el diseño de [Portafolio Mateo](https://leonidasesteban.com/proyectos/portafolio-mateo)
 
 ## Demo
-Si quieres ver la demo de este proyecto desplegado, puedes visitar [Demo del proyecto](https://github.com/azael1412/portafolio-mateo)
+Si quieres ver la demo de este proyecto desplegado, puedes visitar [Demo del proyecto](https://azael1412.github.io/portafolio-mateo/)
 
 
 
-## Tecnologias usadas
+## Tecnologias Usadas
 
 ### CSS
 - Grid
