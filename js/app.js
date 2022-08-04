@@ -31,7 +31,6 @@ menuLinks.forEach(menuLink => {
     });
     let hash = menuLink.getAttribute('href');
     let target = document.querySelector(hash);
-    console.log( hash, target);
     if(target){
         observer.observe(target);
     }
