@@ -1,9 +1,9 @@
 const menu = document.querySelector('.menu');
-const openMenuBtn = document.querySelector('.open-menu');
-const closeMenuBtn = document.querySelector('.close-menu');
+const openMenuBtn = document.querySelector('.menu-open');
+const closeMenuBtn = document.querySelector('.menu-close');
 
 function toggleMenu(){
-    menu.classList.toggle('menu_opened');
+    menu.classList.toggle('menu-opened');
 }
 
 openMenuBtn.addEventListener('click',toggleMenu);
@@ -27,7 +27,7 @@ const observer = new IntersectionObserver(entries => {
 
 menuLinks.forEach(menuLink => {
     menuLink.addEventListener('click', function(e) {
-        menu.classList.remove('menu_opened');
+        menu.classList.remove('menu-opened');
     });
     let hash = menuLink.getAttribute('href');
     let target = document.querySelector(hash);
