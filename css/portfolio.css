@@ -9,18 +9,23 @@
     order:1;
   }
 }
+
 .portfolio-item:nth-child(1) {
   background-color:linear-gradient(to bottom, #05011f, #04001e);
 }
+
 .portfolio-item:nth-child(2) {
   background:linear-gradient(to right, #b1eb66, #6ed6d7);
 }
+
 .portfolio-item:nth-child(3) {
   background:linear-gradient(to right, #85459f, #302eb1);
 }
+
 .portfolio-item:nth-child(4) {
   background:linear-gradient(to right, #f68d79, #ec615d);
 }
+
 @media (min-width: 768px) { 
     .portfolio-item {
         display: grid;
@@ -54,11 +59,13 @@
       background-size: cover;
   }
 }
+
 .landing  .portfolio-img{
   background-image:
   linear-gradient(to bottom, transparent 0%, #04001e 100%),
   url('../img/pruebas.png');
 }
+
 .tiendita .portfolio-img {
   background-image:
   linear-gradient(to bottom, transparent 0%, #6ed6d7 100%),
@@ -115,11 +122,21 @@
 .portfolio-item:nth-child(even) .portfolio-text, .portfolio-item:nth-child(even) .portfolio-title {
   color: var(--black);
 }
+.portfolio-item:nth-child(n) .portfolio-title {
+  margin-top:2rem;
+}
+@media (min-width: 768px) { 
+  .portfolio-item:nth-child(n) .portfolio-title {
+    margin-top:0;
+  }
+}
+
 /* portfolio-btn-group */
 .portfolio-btn-group {
   margin-bottom: 5rem;
 }
-@media (min-width: 768px) { 
+
+@media (min-width: 480px) { 
     .portfolio-btn-group {
         display: flex;
         margin-bottom: 0;
@@ -150,14 +167,20 @@
   color: var(--black);
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 480px) { 
   .portfolio-item:nth-child(n) .portfolio-btn-project {
-    margin-bottom:0rem;
     display: inline;
+    margin-bottom:2rem;
   }
 
   .portfolio-item:nth-child(n) .portfolio-btn-code {
-    margin-left:1rem;
+    margin:0 0 2rem 1rem;
     display: inline;
+  }
+}
+
+@media (min-width: 768px) { 
+  .portfolio-item:nth-child(n) .portfolio-btn-project, .portfolio-item:nth-child(n) .portfolio-btn-code {
+    margin-bottom:0rem;
   }
 }
